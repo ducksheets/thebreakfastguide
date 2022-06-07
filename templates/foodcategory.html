@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ food_category|capitalize }}</h1>
+<ul>
+    {% for food in food_list %}
+    <li><a href="/recipes/{{ food_category }}/{{ loop.index0 }}">{{ food.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

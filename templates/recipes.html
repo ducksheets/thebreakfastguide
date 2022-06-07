@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Recipes</h1>
+<p>description</p>
+<ul>
+    <li><a href="/recipes/meals">Meals</a></li>
+    <img src="{{ url_for('static',filename='recipes/meals.jpg') }}"/>
+    <li><a href="/recipes/drinks">Drinks</a></li>
+    <img src="{{ url_for('static',filename='recipes/drinks.jpg') }}"/>
+    <li><a href="/recipes/desserts">Desserts</a></li>
+    <img src="{{ url_for('static',filename='recipes/desserts.jpg') }}"/>
+</ul>
+{% endblock %}

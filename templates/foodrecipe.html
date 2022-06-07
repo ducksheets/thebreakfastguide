@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ food_recipe.name }}</h1>
+<img src="/static/recipes/{{ food_recipe.image }}"/>
+<h2>Time (in minutes): {{ food_recipe.time }}</h2>
+<h2>Ingredients:</h2>
+<ul>
+    {% for ingredient in food_recipe.ingredients %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
+</ul>
+<h2>Equipment:</h2>
+<ul>
+    {% for equip in food_recipe.equipment %}
+    <li>{{ equip }}</li>
+    {% endfor %}
+</ul>
+<h2>Instructions:</h2>
+<ol>
+    {% for step in food_recipe.steps %}
+    <li>{{ step }}</li>
+    {% endfor %}
+</ol>
+
+<p>Source: {{ food_recipe.source }}</p>
+{% endblock %}
