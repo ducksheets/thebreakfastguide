@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ food_category|capitalize }}</h1>
+<ul class="categlist">
+    {% for food in food_list %}
+    <li><a href="/recipes/{{ food_category }}/{{ loop.index0 }}">{{ food.name }}</a></li>
+    <img src="/static/recipes/{{ food.image }}" class="categlistimg"/>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,93 @@
+*
+body{
+	background-color: #ffe09c;
+  background-image: url("/static/bgpattern.png");
+}
+#main{
+	background-color: #fff8dcbb;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 8%;
+}
+#home{
+  text-align: center;
+}
+
+#home h1{
+  font-size: 50px;
+}
+
+#home ul{
+  margin-top: 30px;
+  font-size: 30px;
+}
+nav{
+  background-color: #f1c68d;
+}
+
+nav a{
+  margin: 0% 2%;
+}
+a{
+  color: #dd6b71;
+}
+h1, h2, h3{
+  text-align: center;
+}
+h2{
+  color: #a58152;
+  margin-top: 30px;
+}
+p {
+	font-size: 25px;
+}
+img{
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 40px;
+  border-radius: 5%;
+  width: 60%;
+}
+ul{ 
+	list-style-position: inside;
+	font-size: 22px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+ol{
+	text-align: justify;
+  font-size: 20px;
+}
+nav ul{
+  margin: 0px;
+}
+.categlist{
+  text-align: center;
+}
+
+.icon{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.categimg{
+  width: 100%;
+  max-width: 600px;
+}
+.categlistimg{
+  max-width: 300px;
+}
+.recipeimg{
+  max-width: 400px;
+  width: 50%;
+}
+.source{
+  margin-top: 50px;
+  font-size: 15px;
+}
+.source a{
+  text-decoration: none;
+}
+
+
+
