@@ -43,7 +43,7 @@ foods = {
             'ingredients' : ['1 pound thick sliced bacon'],
             'equipment' : ['Oven', 'Baking sheet', 'Aluminum foil', 'Tongs or fork', 'Paper towel'],
             'steps' : ['Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with aluminum foil.', 'Arrange the bacon in a single layer on the prepared sheet with the edges touching or slightly overlapping.', 'Bake in the preheated oven to desired degree of doneness, 10 to 15 minutes. Remove bacon from the baking sheet with tongs or a fork, and drain on a paper towel-lined plate.'],
-            'source' : '[insert link or website name]'
+            'source' : 'https://www.allrecipes.com/recipe/158727/bacon-for-the-family-or-a-crowd/'
         },
         {
             'name' : 'Ham',
