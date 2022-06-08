@@ -1,1 +1,1 @@
--
+Our Web Application consists of a menu with different categories (i.e. meals, drinks, snacks) that each contain many recipes that are intended to help a small food business or people who do not have knowledge of cooking. Each recipe includes the cooking time, ingredients needed, equipment needed, and step-by-step instructions that can be easily followed by the clients/users.
